@@ -6,23 +6,27 @@
 
 ### Refactoring is a key part of coding process. When refactoring code, you aren’t adding new functionality; you just want to make the code more efficient—by taking fewer steps, using less memory, or improving the logic of the code to make it easier for future users to read. Refactoring is common on the job because first attempts at code won’t always be the best way to accomplish a task. Sometimes, refactoring someone else’s code will be your entry point to working with the existing code at a job. 
 
-### In this project, I will refactor or edit a Stock Analysis solution code to loop through all the data one time in order to collect the same information from previous codes. Then, I’ll determine whether refactoring your code successfully made the VBA script run faster. The following are my results.
+### In this project, we will refactor or edit a Stock Analysis solution code to loop through all the data one time in order to collect the same information from previous codes. Then, we’ll determine whether refactoring code successfully made the VBA script run faster. 
 
 ## Results
 
 ![Stock Analysis for 2017 and Refactoring time](/VBA_Challenge_2017.png)
 
-### Results: Using images and examples of your code, compare the stock performance between 2017 and 2018, as well as the execution times of the original script and the refactored script. Steve's parents are interested in Daqo's stock, so we'll start with DQ. Steve's parents want to know how actively DQ was traded in 2018. They believe that if a stock is traded often, then the price will accurately reflect the value of the stock. If we sum up all of the daily volume for DQ, we'll have the yearly volume and a rough idea of how often it gets traded. 
+### Results for Steve's Investments
 
-### Steve wants to know how DQ performed in 2018. One way to measure this is to calculate the yearly return for DQ. The yearly return is the percentage increase or decrease in price from the beginning of the year to the end of the year. In other words, if you invested in DQ at the beginning of the year and never sold, the yearly return is how much your investment grew or shrunk by the end of the year. Daqo dropped over 63% in 2018.  Steve will definitely want to offer some better stocks to his parents. Since Daqo might not be the best option for Steve's parents to invest in
-
-### 
+## After running the analysis for 2017, we find that Ticker:DQ has the highest return on investment at 199.4%. Additionally, all but Ticker: VSLR netted a positive return. 
 
 ![Stock Analysis for 2018 and Refactoring time](/VBA_Challenge_2018.png)
 
-###     
+## After running the analysis for 2018, we find that Ticker:DQ has a decrease of 63%. Additionally, we find that Ticker:ENPH increased 82% and Ticker:RUN increased return to 84%. After reviewing this data, it would be advisable to not invest in Ticker:DQ, but look to Ticker:ENPH and Ticker:RUN. 
 
-### 
+## We were able to compare stock performance between 2017 and 2018 by summing up all of the daily volume for the individual stocks. By doing this, we'll have the yearly volume and a rough idea of how often it gets traded. If a stock is traded often, then the price will accurately reflect the value of the stock. One way to measure this is to calculate the yearly return for DQ. The yearly return is the percentage increase or decrease in price from the beginning of the year to the end of the year. We used the following code in VBA to find the stock return for a given year.
+
+![VBA Code for finding return](.png)
+
+### Results in Refactored Script Times versus the Original Script Times
+
+## 
 
 ## Summary: In a summary statement, address the following questions.
 
