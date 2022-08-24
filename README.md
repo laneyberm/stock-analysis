@@ -16,7 +16,7 @@
 #### After running the analysis for 2017, we find that Ticker:DQ has the highest return on investment at 199.4%. Additionally, all but Ticker: VSLR netted a positive return. 
 
 ![Stock Analysis for 2018 and Refactoring time](/VBA_Challenge_2018.png)
-#### After running the analysis for 2018, we find that Ticker:DQ has a decrease of 63%. Additionally, we find that Ticker:ENPH increased 82% and Ticker:RUN increased return to 84%. After reviewing this data, it would be advisable to not invest in Ticker:DQ, but look to Ticker:ENPH and Ticker:RUN. 
+#### After running the analysis for 2018, we find that Ticker:DQ has a decrease of 63%. Additionally, we find that Ticker:ENPH increased 82% and Ticker:RUN increased return to 84%. After reviewing this data, it would be advisable to not invest in Ticker:DQ. Ticker:ENPH and Ticker:RUN would be the stocks to invest as they both had positive returns for year 2017 and year 2018.
 
 #### We were able to compare stock performance between 2017 and 2018 by summing up all of the daily volume for the individual stocks. By doing this, we'll have the yearly volume and a rough idea of how often it gets traded. If a stock is traded often, then the price will accurately reflect the value of the stock. One way to measure this is to calculate the yearly return for DQ. The yearly return is the percentage increase or decrease in price from the beginning of the year to the end of the year. We used the following code in VBA to find the stock return for a given year.
 
