@@ -28,7 +28,7 @@
 
 ## Summary: 
 
-### Advantages to refactoring code will include making the code more efficient by taking fewer steps, using less memory, and improving the logic of the code to make it easier for future users to read. Refactoring is common because first attempts at code won’t always be the best way to accomplish a task. Disadvantages to refacotring code is it is a very time consuming process and sometimes, refactoring someone else’s code will be your entry point to working with the existing code. Following someone else's code can be difficult to refactor as there are multiple ways code that would to net the same results in coding VBA. 
+### Advantages to refactoring code will include making the code more efficient by taking fewer steps, using less memory, and improving the logic of the code to make it easier for future users to read. Refactoring is common because first attempts at code won’t always be the best way to accomplish a task. Disadvantages to refactoring code is it is a very time consuming process and sometimes, refactoring someone else’s code will be your entry point to working with the existing code. Following someone else's code can be difficult to refactor as there are multiple ways code that would to net the same results in coding VBA. 
 
 ### In the above project, the refactored script and original script times are similar therefore refactoring the script would not be necessary in this case. The twelve tickers being analyzed is small compared to potentially thousands of tickers that the code could be analyzing. When we running the code on larger amounts of data, having someone or a team to refactor the script would be beneficial. 
 
