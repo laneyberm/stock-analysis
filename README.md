@@ -1,8 +1,10 @@
-# Theater Play Outcomes in Relation to their Launch Dates and Funding Goals
+# Does Refactoring VBA Code to make a VBA script run faster?
 
 ## Overview of Project
 
-### Overview of Project: Explain the purpose of this analysis.
+### Refactoring is a key part of coding process. When refactoring code, you aren’t adding new functionality; you just want to make the code more efficient—by taking fewer steps, using less memory, or improving the logic of the code to make it easier for future users to read. Refactoring is common on the job because first attempts at code won’t always be the best way to accomplish a task. Sometimes, refactoring someone else’s code will be your entry point to working with the existing code at a job. 
+
+### In this project, I will refactor or edit a Stock Analysis solution code to loop through all the data one time in order to collect the same information from previous codes. Then, I’ll determine whether refactoring your code successfully made the VBA script run faster. The following are my results.
 
 ## Results
 
